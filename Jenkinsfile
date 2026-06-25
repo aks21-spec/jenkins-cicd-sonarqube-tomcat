@@ -43,7 +43,7 @@ pipeline {
                     alternativeDeploymentContext: '',
                     credentialsId: 'tom1',
                     path: '',
-                    url: 'http://3.110.164.200:8080/'
+                    url: 'http://TOMCAT_SERVER:8080/'
                 )],
                 contextPath: 'student',
                 war: 'target/*.war'
